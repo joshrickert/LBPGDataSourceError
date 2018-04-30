@@ -1,0 +1,21 @@
+{
+  "name": "TestModel",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "testDate": {
+      "type": "DateString",
+      "required": true,
+      "postgresql": {
+        "dataType": "date"
+      }
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
